@@ -70,7 +70,8 @@ footer a {
 
 .learn-more {
   background-color: grey;
-  padding: 5px;
+  padding: 10px;
+  font-weight: bold;
   cursor: pointer;
 }
 
