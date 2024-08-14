@@ -11,24 +11,26 @@
 </head>
 
 <body>
-  <nav>
-    <div><img src="imgs/logo-removebg.png" alt="site logo"></div>
-    <section>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Expertise</a>
-      <a href="">Blog</a>
-      <a href="">Store</a>
-      <a href="">Contact</a>
-    </section>
+  <nav class="row">
+    <div class="col"><img src="imgs/logo-removebg.png" alt="site logo"></div>
+    <div class="col">
+      <section>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Expertise</a>
+        <a href="">Blog</a>
+        <a href="">Store</a>
+        <a href="">Contact</a>
+      </section>
+    </div>
   </nav>
-  <header>
-    <div>
+  <header class="row">
+    <div class="col">
       <h1>Crown Maple</h1>
       <p>Not All Crowns Are Created Equal</p>
       <span>Carousel goes here</span>
     </div>
-    <div>Maybe image</div>
+    <div class="col"><img src="imgs/syrup-removebg.png" alt="syrup bottle">></div>
   </header>
   <main>
     <div>
@@ -36,28 +38,32 @@
         that are effective and honest, novel and established.</span>
       <span>LEARN MORE</span>
     </div>
-    <section>
-      <div>BLOG</div>
-      <div>OFFICE</div>
-      <div>EXPERTISE</div>
-      <span>New Work: MerryStockings</span>
-      <span>Our design studio and the creative minds who work here</span>
-      <span>Our design process, clients, awards, and accolades</span>
+    <section class="row">
+      <div class="col-4">BLOG</div>
+      <div class="col-4">OFFICE</div>
+      <div class="col-4">EXPERTISE</div>
+      <span class="col-4">New Work: MerryStockings</span>
+      <span class="col-4">Our design studio and the creative minds who work here</span>
+      <span class="col-4">Our design process, clients, awards, and accolades</span>
     </section>
   </main>
-  <footer>
-    <section>
-      <a href="">Jobs</a>
-      <a href="">Store</a>
-      <a href="">Twitter</a>
-      <a href="">Facebook</a>
-    </section>
-    <section>
-      <span>612.315.5270</span>
-      <span>3258 Minnehaha Ave</span>
-      <span>hello@studiompls.com</span>
-      <span>Minneapolis, MN 55406</span>
-    </section>
+  <footer class="row">
+    <div class="col">
+      <section class="row">
+        <a class="col" href="">Jobs</a>
+        <a class="col" href="">Store</a>
+        <a class="col" href="">Twitter</a>
+        <a class="col" href="">Facebook</a>
+      </section>
+    </div>
+    <div class="col">
+      <section class="row">
+        <span class="col-6">612.315.5270</span>
+        <span class="col-6">3258 Minnehaha Ave</span>
+        <span class="col-6">hello@studiompls.com</span>
+        <span class="col-6">Minneapolis, MN 55406</span>
+      </section>
+    </div>
   </footer>
 </body>
 
