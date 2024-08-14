@@ -60,8 +60,8 @@ footer a {
 
 .ph-text {
   background-color: var(--dark);
-  padding: 3em 30%;
-  font-size: 18pt;
+  padding: 2em 20%;
+  font-size: 24pt;
 }
 
 .learn-more {
@@ -79,9 +79,10 @@ footer a {
   aspect-ratio: 1/1;
   background-color: grey;
   font-weight: bolder;
-  font-size: large;
+  font-size: x-large;
   text-shadow: 0px 2px 5px var(--dark);
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .blog-square {
